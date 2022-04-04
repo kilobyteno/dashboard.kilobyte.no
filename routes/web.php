@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'dashboard-blade-view');
 
 Route::middleware(['auth:sanctum', 'verified'])
     ->get('/dashboard', function () {
