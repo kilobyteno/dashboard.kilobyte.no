@@ -4,8 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "103050d7ada2ef81b9599e705ee16264",
+    "content-hash": "021c8fb0c7ca03e75ff1ee0b55423cd1",
     "packages": [
+        {
+            "name": "aglipanci/laravel-dashboard-forge-tile",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aglipanci/laravel-dashboard-forge-tile.git",
+                "reference": "06a9737362ec4625425dc74778e3d43a41104234"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aglipanci/laravel-dashboard-forge-tile/zipball/06a9737362ec4625425dc74778e3d43a41104234",
+                "reference": "06a9737362ec4625425dc74778e3d43a41104234",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/forge-sdk": "^3.9",
+                "php": "^7.4|^8.0",
+                "spatie/laravel-dashboard": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "aglipanci\\ForgeTile\\ForgeTileServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "aglipanci\\ForgeTile\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Agli Panci",
+                    "email": "agli.panci@gmail.com",
+                    "homepage": "https://aglipanci.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "2.3.0",
+            "support": {
+                "issues": "https://github.com/aglipanci/laravel-dashboard-forge-tile/issues",
+                "source": "https://github.com/aglipanci/laravel-dashboard-forge-tile/tree/2.3.0"
+            },
+            "time": "2022-04-04T18:39:36+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
@@ -1375,6 +1429,73 @@
                 }
             ],
             "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "laravel/forge-sdk",
+            "version": "v3.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/forge-sdk.git",
+                "reference": "3f762761f9ba4eaf1ef873e6fd3d25fd1b49dae4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/forge-sdk/zipball/3f762761f9ba4eaf1ef873e6fd3d25fd1b49dae4",
+                "reference": "3f762761f9ba4eaf1ef873e6fd3d25fd1b49dae4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.3.1|^7.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.1",
+                "phpunit/phpunit": "^8.4|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Forge\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "email": "dries@laravel.com"
+                },
+                {
+                    "name": "James Brooks",
+                    "email": "james@laravel.com"
+                }
+            ],
+            "description": "The official Laravel Forge PHP SDK.",
+            "keywords": [
+                "forge",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/forge-sdk/issues",
+                "source": "https://github.com/laravel/forge-sdk"
+            },
+            "time": "2022-03-08T16:24:43+00:00"
         },
         {
             "name": "laravel/fortify",
@@ -4362,6 +4483,140 @@
             "time": "2022-02-14T20:00:19+00:00"
         },
         {
+            "name": "solitweb/laravel-dashboard-date-time-tile",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solitweb/laravel-dashboard-date-time-tile.git",
+                "reference": "5e9ff301296d2a7b8e96a1b301bd72d2f81a502b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solitweb/laravel-dashboard-date-time-tile/zipball/5e9ff301296d2a7b8e96a1b301bd72d2f81a502b",
+                "reference": "5e9ff301296d2a7b8e96a1b301bd72d2f81a502b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0",
+                "spatie/laravel-dashboard": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Solitweb\\DateTimeTile\\DateTimeTileServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Solitweb\\DateTimeTile\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stijn Vanouplines",
+                    "email": "stijn@solitweb.be",
+                    "homepage": "https://solitweb.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A date & time tile for the Laravel Dashboard",
+            "homepage": "https://github.com/solitweb/laravel-dashboard-date-time-tile",
+            "keywords": [
+                "laravel-dashboard-date-time-tile",
+                "solitweb"
+            ],
+            "support": {
+                "issues": "https://github.com/solitweb/laravel-dashboard-date-time-tile/issues",
+                "source": "https://github.com/solitweb/laravel-dashboard-date-time-tile/tree/1.0.2"
+            },
+            "time": "2021-09-14T07:48:49+00:00"
+        },
+        {
+            "name": "spatie/laravel-dashboard",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-dashboard.git",
+                "reference": "1b4a07c25b7b3d325fd3a6c0c2a1c5c329942338"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-dashboard/zipball/1b4a07c25b7b3d325fd3a6c0c2a1c5c329942338",
+                "reference": "1b4a07c25b7b3d325fd3a6c0c2a1c5c329942338",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^8.0|^9.0",
+                "illuminate/view": "^8.0|^9.0",
+                "livewire/livewire": "^2.0",
+                "php": "^7.4|^8.0",
+                "spatie/sun": "^1.1.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0|^7.0",
+                "phpunit/phpunit": "^9.3",
+                "spatie/phpunit-snapshot-assertions": "^4.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Dashboard\\DashboardServiceProvider"
+                    ],
+                    "aliases": {
+                        "Dashboard": "Spatie\\Dashboard\\Facades\\Dashboard"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Dashboard\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A dashboard for Laravel",
+            "homepage": "https://github.com/spatie/laravel-dashboard",
+            "keywords": [
+                "laravel-dashboard",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-dashboard/issues",
+                "source": "https://github.com/spatie/laravel-dashboard/tree/2.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-02-08T10:41:01+00:00"
+        },
+        {
             "name": "spatie/laravel-honeypot",
             "version": "3.0.1",
             "source": {
@@ -4573,6 +4828,70 @@
                 }
             ],
             "time": "2022-03-09T10:21:20+00:00"
+        },
+        {
+            "name": "spatie/sun",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/sun.git",
+                "reference": "12d195e38adab756c067f04f3a0b07a5d18f018a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/sun/zipball/12d195e38adab756c067f04f3a0b07a5d18f018a",
+                "reference": "12d195e38adab756c067f04f3a0b07a5d18f018a",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "^2.32",
+                "php": "^8.0|^7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "pestphp/pest": "^1.0",
+                "spatie/test-time": "^1.2",
+                "symfony/var-dumper": "^4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Sun\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Get information on the position of the sun",
+            "homepage": "https://github.com/spatie/sun",
+            "keywords": [
+                "spatie",
+                "sun"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/sun/issues",
+                "source": "https://github.com/spatie/sun/tree/1.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-07-22T08:48:57+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
