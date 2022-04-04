@@ -44,5 +44,23 @@ return [
                 'refresh_interval_in_seconds' => 60
             ],
         ],
+        'packagist' => [
+            'refresh_interval_in_seconds' => 300,
+            'sort' => 'total', // options: name, daily, monthly, total, empty means no sorting.
+            'reverse' => true, // reverse the order
+            'with_abandoned' => true, // set to false to ignore them
+            'display' => [
+                'totals' => true,
+                'faves' => true, // packagist faces
+                'github_stars' => true, // github stars
+            ],
+            'vendors' => [ // vendors from which you want to see all the packages
+                'kilobyteno',
+                'danielrtrd',
+            ],
+            'packages' => [ // specific packages that you want to see.
+            ],
+        ],
+
     ],
 ];

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "021c8fb0c7ca03e75ff1ee0b55423cd1",
+    "content-hash": "d477089ac6a3e835355a96fb58e917f7",
     "packages": [
         {
             "name": "aglipanci/laravel-dashboard-forge-tile",
@@ -4830,6 +4830,76 @@
             "time": "2022-03-09T10:21:20+00:00"
         },
         {
+            "name": "spatie/packagist-api",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/packagist-api.git",
+                "reference": "3348caf7975d052b22124e246daa3e2a3802a802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/packagist-api/zipball/3348caf7975d052b22124e246daa3e2a3802a802",
+                "reference": "3348caf7975d052b22124e246daa3e2a3802a802",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.5|^7.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5|^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Packagist\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jolita Grazyte",
+                    "email": "jolita@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Mark Walet",
+                    "homepage": "https://markwalet.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Fetch package info from Packagist",
+            "homepage": "https://github.com/spatie/packagist-api",
+            "keywords": [
+                "api",
+                "packagist",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/packagist-api/issues",
+                "source": "https://github.com/spatie/packagist-api/tree/2.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-12-01T14:09:20+00:00"
+        },
+        {
             "name": "spatie/sun",
             "version": "1.1.2",
             "source": {
@@ -7613,6 +7683,75 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "time": "2021-12-08T09:12:39+00:00"
+        },
+        {
+            "name": "tjvb/laravel-dashboard-packagist-tile",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/tjvb/laravel-dashboard-packagist-tile.git",
+                "reference": "b830a07ed2bbcd892971f12c78fa9e5415107972"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/tjvb%2Flaravel-dashboard-packagist-tile/repository/archive.zip?sha=b830a07ed2bbcd892971f12c78fa9e5415107972",
+                "reference": "b830a07ed2bbcd892971f12c78fa9e5415107972",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0 || ^8.0 || ^9.0",
+                "livewire/livewire": "^1.0 || ^2.0",
+                "php": "^7.4 || ^8.0 || ^8.1",
+                "spatie/laravel-dashboard": "^1.0 || ^2.0",
+                "spatie/packagist-api": "^2.0"
+            },
+            "require-dev": {
+                "fakerphp/faker": "^1.9",
+                "orchestra/testbench": "^5.2 || ^6.0 || ^7.0",
+                "phpunit/phpunit": "^9.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TJVB\\PackagistTile\\PackagistTileServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TJVB\\PackagistTile\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias van Beek",
+                    "email": "t.vanbeek@tjvb.nl",
+                    "homepage": "http://www.tjvb.nl"
+                }
+            ],
+            "description": "A tile for Laravel Dashboard that shows statistics from packagist.",
+            "homepage": "https://gitlab.com/tjvb/laravel-dashboard-packagist-tile",
+            "keywords": [
+                "laravel-dashboard-packagist-tile",
+                "tjvb"
+            ],
+            "support": {
+                "issues": "https://gitlab.com/tjvb/laravel-dashboard-packagist-tile/-/issues",
+                "source": "https://gitlab.com/tjvb/laravel-dashboard-packagist-tile/-/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/tvbeek",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2022-02-08T20:57:21+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

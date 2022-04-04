@@ -26,6 +26,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->hourly();
         $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyMinute();
+        $schedule->command(\TJVB\PackagistTile\FetchPackageDataCommand::class)->twiceDaily();
     }
 
     /**
