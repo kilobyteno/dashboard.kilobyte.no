@@ -31,17 +31,17 @@ return [
      * These stylesheets will be loaded when the dashboard is displayed.
      */
     'stylesheets' => [
-        'inter' => 'https://rsms.me/inter/inter.css'
+        'inter' => 'https://rsms.me/inter/inter.css',
     ],
 
     'tiles' => [
         'forge' => [
             'token' => env('FORGE_API_TOKEN'),
             'servers' => [
-                'refresh_interval_in_seconds' => 3600
+                'refresh_interval_in_seconds' => 3600,
             ],
             'recent_events' => [
-                'refresh_interval_in_seconds' => 60
+                'refresh_interval_in_seconds' => 60,
             ],
         ],
     ],
