@@ -54,13 +54,12 @@ return [
                 'faves' => true, // packagist faces
                 'github_stars' => true, // github stars
             ],
-            'vendors' => [ // vendors from which you want to see all the packages
+            'vendors' => [
+                // vendors from which you want to see all the packages
                 'kilobyteno',
                 'danielrtrd',
             ],
-            'packages' => [ // specific packages that you want to see.
-            ],
+            'packages' => [], // specific packages that you want to see.
         ],
-
     ],
 ];

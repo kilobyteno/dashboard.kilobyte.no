@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'dashboard')->middleware(['auth:sanctum', 'verified'])->name('dashboard');
+Route::view('/', 'dashboard')
+    ->middleware(['auth:sanctum', 'verified'])
+    ->name('dashboard');
