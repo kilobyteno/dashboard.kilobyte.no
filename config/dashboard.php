@@ -44,6 +44,10 @@ return [
                 'refresh_interval_in_seconds' => 60,
             ],
         ],
+        'plausible' => [
+            'api' => env('PLAUSIBLE_API_URL'),
+            'token' => env('PLAUSIBLE_API_KEY'),
+        ],
         'packagist' => [
             'refresh_interval_in_seconds' => 300,
             'sort' => 'total', // options: name, daily, monthly, total, empty means no sorting.

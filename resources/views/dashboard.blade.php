@@ -3,4 +3,5 @@
     <livewire:forge-server-tile position="b1:b3"/>
     <livewire:forge-recent-events-tile position="e1:e6"/>
     <livewire:packagist-tile position="a4:d6" />
+    <livewire:plausible-tile position="c1:d3" />
 </x-dashboard>

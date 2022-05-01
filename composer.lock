@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d477089ac6a3e835355a96fb58e917f7",
+    "content-hash": "5e816ab2e4d917b6f069d06472861971",
     "packages": [
         {
             "name": "aglipanci/laravel-dashboard-forge-tile",
@@ -1429,6 +1429,155 @@
                 }
             ],
             "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "kilobyteno/laravel-dashboard-plausible-tile",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "C:/Users/Daniel/Documents/GitHub/laravel-dashboard-plausible-tile-test",
+                "reference": "0c3e213b6511a82d235c2bba2e359016f4c92bb9"
+            },
+            "require": {
+                "kilobyteno/laravel-plausible": "dev-main",
+                "php": "^8.0|^7.4",
+                "spatie/laravel-dashboard": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kilobyteno\\PlausibleTile\\PlausibleTileServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kilobyteno\\PlausibleTile\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Kilobyteno\\PlausibleTile\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-coverage": [
+                    "vendor/bin/phpunit --coverage-html coverage"
+                ],
+                "format": [
+                    "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel S. Billing",
+                    "email": "daniel@kilobyte.no",
+                    "homepage": "https://kilobyte.no",
+                    "role": "Developer"
+                }
+            ],
+            "description": ":package_description",
+            "homepage": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile",
+            "keywords": [
+                "dashboard",
+                "kilobyteno",
+                "laravel-dashboard",
+                "laravel-dashboard-plausible-tile",
+                "plausible",
+                "plausible-tile"
+            ],
+            "transport-options": {
+                "relative": false
+            }
+        },
+        {
+            "name": "kilobyteno/laravel-plausible",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "C:/Users/Daniel/Documents/GitHub/laravel-plausible-api",
+                "reference": "7071ccb8c126bd954d79cd46dc6a3c2e5a5e509e"
+            },
+            "require": {
+                "illuminate/contracts": "^8.0",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.9.2"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^6.0",
+                "nunomaduro/larastan": "^2.0.1",
+                "orchestra/testbench": "^7.0",
+                "pestphp/pest": "^1.21",
+                "pestphp/pest-plugin-laravel": "^1.1",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "spatie/laravel-ray": "^1.26"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kilobyteno\\LaravelPlausible\\LaravelPlausibleServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelPlausible": "Kilobyteno\\LaravelPlausible\\Facades\\LaravelPlausible"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kilobyteno\\LaravelPlausible\\": "src",
+                    "Kilobyteno\\LaravelPlausible\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Kilobyteno\\LaravelPlausible\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "vendor/bin/pest"
+                ],
+                "test-coverage": [
+                    "vendor/bin/pest --coverage"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel S. Billing",
+                    "email": "daniel@kilobyte.no",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple package for communicating with the Plausible API",
+            "homepage": "https://github.com/kilobyteno/laravel-plausible",
+            "keywords": [
+                "kilobyteno",
+                "laravel",
+                "laravel-plausible"
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "laravel/forge-sdk",
@@ -10764,7 +10913,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "kilobyteno/laravel-dashboard-plausible-tile": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

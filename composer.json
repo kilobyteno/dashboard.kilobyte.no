@@ -4,11 +4,18 @@
     "description": "Our dashboard for Kilobyte.no",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "C:\\Users\\Daniel\\Documents\\GitHub\\laravel-dashboard-plausible-tile-test"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "aglipanci/laravel-dashboard-forge-tile": "^2.3",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "kilobyteno/laravel-dashboard-plausible-tile": "dev-master",
         "laravel/framework": "^8.54",
         "laravel/jetstream": "^2.4",
         "laravel/sanctum": "^2.11",
