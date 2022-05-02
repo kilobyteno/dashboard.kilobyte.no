@@ -4,6 +4,7 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Kilobyteno\PlausibleTile\FetchDataFromPlausibleCommand;
 
 class Kernel extends ConsoleKernel
 {
@@ -27,6 +28,7 @@ class Kernel extends ConsoleKernel
         $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->hourly();
         $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyMinute();
         $schedule->command(\TJVB\PackagistTile\FetchPackageDataCommand::class)->twiceDaily();
+        $schedule->command(FetchDataFromPlausibleCommand::class)->hourly();
     }
 
     /**
