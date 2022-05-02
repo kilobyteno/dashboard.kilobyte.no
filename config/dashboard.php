@@ -44,6 +44,10 @@ return [
                 'refresh_interval_in_seconds' => 60,
             ],
         ],
+        'plausible' => [
+            'refresh_interval_in_seconds' => 60,
+            'domains' => ['kilobyte.no', 'pokemon3d.net'],
+        ],
         'packagist' => [
             'refresh_interval_in_seconds' => 300,
             'sort' => 'total', // options: name, daily, monthly, total, empty means no sorting.
