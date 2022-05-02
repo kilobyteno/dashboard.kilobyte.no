@@ -45,8 +45,11 @@ return [
             ],
         ],
         'plausible' => [
-            'api' => env('PLAUSIBLE_API_URL'),
-            'token' => env('PLAUSIBLE_API_KEY'),
+            'refresh_interval_in_seconds' => 60,
+            'domains' => [
+                'kilobyte.no',
+                'pokemon3d.net',
+            ],
         ],
         'packagist' => [
             'refresh_interval_in_seconds' => 300,
