@@ -9,7 +9,7 @@
         "aglipanci/laravel-dashboard-forge-tile": "^2.3",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "kilobyteno/laravel-dashboard-plausible-tile": "dev-main",
+        "kilobyteno/laravel-dashboard-plausible-tile": "^0.0.1",
         "laravel/framework": "^8.54",
         "laravel/jetstream": "^2.4",
         "laravel/sanctum": "^2.11",

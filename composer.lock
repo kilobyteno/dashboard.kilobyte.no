@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "077545b4a27d3cb27c591e9120439daa",
+    "content-hash": "9766cb7e002cd56ffdd5ce42c108e311",
     "packages": [
         {
             "name": "aglipanci/laravel-dashboard-forge-tile",
@@ -1432,20 +1432,21 @@
         },
         {
             "name": "kilobyteno/laravel-dashboard-plausible-tile",
-            "version": "dev-main",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile.git",
-                "reference": "86cb32c3b52e89266eae4b0382d1676490bb9a81"
+                "reference": "e1f20b8310d4e427593f19884f7ed04f162d7483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/86cb32c3b52e89266eae4b0382d1676490bb9a81",
-                "reference": "86cb32c3b52e89266eae4b0382d1676490bb9a81",
+                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/e1f20b8310d4e427593f19884f7ed04f162d7483",
+                "reference": "e1f20b8310d4e427593f19884f7ed04f162d7483",
                 "shasum": ""
             },
             "require": {
                 "kilobyteno/laravel-plausible": "^0.0.2",
+                "livewire/livewire": "^2.0",
                 "php": "^8.0|^8.1",
                 "spatie/laravel-dashboard": "^2.0",
                 "spatie/laravel-package-tools": "^1.9.2"
@@ -1462,7 +1463,6 @@
                 "phpunit/phpunit": "^9.5",
                 "spatie/laravel-ray": "^1.26"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1488,7 +1488,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": ":package_description",
+            "description": "A simple tile for showing Plausible analytics within for your dashboard.",
             "homepage": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile",
             "keywords": [
                 "dashboard",
@@ -1500,7 +1500,7 @@
             ],
             "support": {
                 "issues": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/issues",
-                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/main"
+                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/0.0.1"
             },
             "funding": [
                 {
@@ -1508,7 +1508,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-02T19:43:56+00:00"
+            "time": "2022-05-02T20:01:11+00:00"
         },
         {
             "name": "kilobyteno/laravel-plausible",
@@ -10925,9 +10925,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "kilobyteno/laravel-dashboard-plausible-tile": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
