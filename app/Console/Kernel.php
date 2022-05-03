@@ -8,6 +8,7 @@ use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use Kilobyteno\PlausibleTile\FetchDataFromPlausibleCommand;
 use TJVB\PackagistTile\FetchPackageDataCommand;
+use TJVB\PackagistTile\FetchVendorPackagesCommand;
 
 class Kernel extends ConsoleKernel
 {
@@ -30,6 +31,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command(FetchForgeServersCommand::class)->hourly();
         $schedule->command(FetchForgeRecentEventsCommand::class)->everyMinute();
+        $schedule->command(FetchVendorPackagesCommand::class)->daily();
         $schedule->command(FetchPackageDataCommand::class)->twiceDaily();
         $schedule->command(FetchDataFromPlausibleCommand::class)->hourly();
     }
