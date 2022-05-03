@@ -2,9 +2,12 @@
 
 namespace App\Console;
 
+use aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand;
+use aglipanci\ForgeTile\Commands\FetchForgeServersCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use Kilobyteno\PlausibleTile\FetchDataFromPlausibleCommand;
+use TJVB\PackagistTile\FetchPackageDataCommand;
 
 class Kernel extends ConsoleKernel
 {
@@ -20,14 +23,14 @@ class Kernel extends ConsoleKernel
     /**
      * Define the application's command schedule.
      *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @param Schedule $schedule
      * @return void
      */
-    protected function schedule(Schedule $schedule)
+    protected function schedule(Schedule $schedule): void
     {
-        $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->hourly();
-        $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyMinute();
-        $schedule->command(\TJVB\PackagistTile\FetchPackageDataCommand::class)->twiceDaily();
+        $schedule->command(FetchForgeServersCommand::class)->hourly();
+        $schedule->command(FetchForgeRecentEventsCommand::class)->everyMinute();
+        $schedule->command(FetchPackageDataCommand::class)->twiceDaily();
         $schedule->command(FetchDataFromPlausibleCommand::class)->hourly();
     }
 
@@ -36,7 +39,7 @@ class Kernel extends ConsoleKernel
      *
      * @return void
      */
-    protected function commands()
+    protected function commands(): void
     {
         $this->load(__DIR__ . '/Commands');
 
