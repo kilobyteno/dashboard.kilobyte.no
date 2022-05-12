@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
         $schedule->command(FetchForgeRecentEventsCommand::class)->everyMinute();
         $schedule->command(FetchVendorPackagesCommand::class)->daily();
         $schedule->command(FetchPackageDataCommand::class)->twiceDaily();
-        $schedule->command(FetchDataFromPlausibleCommand::class)->hourly();
+        $schedule->command(FetchDataFromPlausibleCommand::class)->everyMinute();
     }
 
     /**
