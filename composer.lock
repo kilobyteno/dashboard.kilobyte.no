@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27d194b31cb6c580a703a6e70ea39b74",
+    "content-hash": "502a06db9fd71d690e4d5ca6af9f0e7a",
     "packages": [
         {
             "name": "aglipanci/laravel-dashboard-forge-tile",
@@ -1368,16 +1368,16 @@
         },
         {
             "name": "kilobyteno/laravel-dashboard-plausible-tile",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile.git",
-                "reference": "84e1af83bdbe40cce45506653057b3e1dad51891"
+                "reference": "ce05b7847217319bc89043e2afcedfcac396bdc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/84e1af83bdbe40cce45506653057b3e1dad51891",
-                "reference": "84e1af83bdbe40cce45506653057b3e1dad51891",
+                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/ce05b7847217319bc89043e2afcedfcac396bdc4",
+                "reference": "ce05b7847217319bc89043e2afcedfcac396bdc4",
                 "shasum": ""
             },
             "require": {
@@ -1433,7 +1433,7 @@
             ],
             "support": {
                 "issues": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/issues",
-                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/0.1.0"
+                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/0.1.1"
             },
             "funding": [
                 {
@@ -1441,7 +1441,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-12T18:44:40+00:00"
+            "time": "2022-05-12T19:11:19+00:00"
         },
         {
             "name": "kilobyteno/laravel-plausible",
@@ -9117,16 +9117,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v1.21.2",
+            "version": "v1.21.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "63f009fadf9b37f611fda43928d03336475d5d9f"
+                "reference": "66f69617f1e01032e009f783136f129de3476689"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/63f009fadf9b37f611fda43928d03336475d5d9f",
-                "reference": "63f009fadf9b37f611fda43928d03336475d5d9f",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/66f69617f1e01032e009f783136f129de3476689",
+                "reference": "66f69617f1e01032e009f783136f129de3476689",
                 "shasum": ""
             },
             "require": {
@@ -9148,7 +9148,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "pest": {
                     "plugins": [
@@ -9194,7 +9194,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v1.21.2"
+                "source": "https://github.com/pestphp/pest/tree/v1.21.3"
             },
             "funding": [
                 {
@@ -9226,7 +9226,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-05T19:34:40+00:00"
+            "time": "2022-05-12T19:10:25+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
