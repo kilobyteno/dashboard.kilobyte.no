@@ -46,7 +46,7 @@ return [
         ],
         'plausible' => [
             'refresh_interval_in_seconds' => 60,
-            'domains' => ['kilobyte.no', 'pokemon3d.net'],
+            'domains' => ['kilobyte.no', 'pokemon3d.net', 'lanms.net', 'daniel.rtrd.no'],
         ],
         'packagist' => [
             'refresh_interval_in_seconds' => 300,
