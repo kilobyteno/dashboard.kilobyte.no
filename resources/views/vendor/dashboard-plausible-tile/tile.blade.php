@@ -3,7 +3,7 @@
         <div class="text-xl leading-none mt-1 mb-2">
             Plausible
         </div>
-        <div wire:poll.{{ $refreshIntervalInSeconds }}s class="grid auto-rows-auto grid-cols-2">
+        <div wire:poll.{{ $refreshIntervalInSeconds }}s class="grid auto-rows-auto grid-cols-3">
             @foreach($data as $key => $value)
                 <div>
                     <div class="text-lg inline-block align-bottom">
