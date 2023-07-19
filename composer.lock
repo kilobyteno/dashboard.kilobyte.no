@@ -1533,16 +1533,16 @@
         },
         {
             "name": "kilobyteno/laravel-dashboard-plausible-tile",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile.git",
-                "reference": "492ec32e861d4932fb729a7c7b95e60b89d8f8ca"
+                "reference": "5d7bbdce3f428ef2471e9d2a3d3dfdd85b666b74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/492ec32e861d4932fb729a7c7b95e60b89d8f8ca",
-                "reference": "492ec32e861d4932fb729a7c7b95e60b89d8f8ca",
+                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/5d7bbdce3f428ef2471e9d2a3d3dfdd85b666b74",
+                "reference": "5d7bbdce3f428ef2471e9d2a3d3dfdd85b666b74",
                 "shasum": ""
             },
             "require": {
@@ -1598,9 +1598,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/issues",
-                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/1.1.0"
+                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/1.1.1"
             },
-            "time": "2023-07-19T18:52:06+00:00"
+            "time": "2023-07-19T19:38:16+00:00"
         },
         {
             "name": "kilobyteno/laravel-plausible",
