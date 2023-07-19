@@ -1533,20 +1533,20 @@
         },
         {
             "name": "kilobyteno/laravel-dashboard-plausible-tile",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile.git",
-                "reference": "4ea6d6d7db664aa41d879d425c6d8bb7f951d94a"
+                "reference": "492ec32e861d4932fb729a7c7b95e60b89d8f8ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/4ea6d6d7db664aa41d879d425c6d8bb7f951d94a",
-                "reference": "4ea6d6d7db664aa41d879d425c6d8bb7f951d94a",
+                "url": "https://api.github.com/repos/kilobyteno/laravel-dashboard-plausible-tile/zipball/492ec32e861d4932fb729a7c7b95e60b89d8f8ca",
+                "reference": "492ec32e861d4932fb729a7c7b95e60b89d8f8ca",
                 "shasum": ""
             },
             "require": {
-                "kilobyteno/laravel-plausible": "^0.0.2",
+                "kilobyteno/laravel-plausible": "^1.0.0",
                 "php": "^8.0|^8.1",
                 "spatie/laravel-dashboard": "^2.0",
                 "spatie/laravel-package-tools": "^1.9.2"
@@ -1598,28 +1598,22 @@
             ],
             "support": {
                 "issues": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/issues",
-                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/1.0.0"
+                "source": "https://github.com/kilobyteno/laravel-dashboard-plausible-tile/tree/1.1.0"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/DanielRTRD",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-05-30T19:28:41+00:00"
+            "time": "2023-07-19T18:52:06+00:00"
         },
         {
             "name": "kilobyteno/laravel-plausible",
-            "version": "0.0.2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kilobyteno/laravel-plausible.git",
-                "reference": "ccb20a70b9fcd3a81340b4aca1009b78746bd276"
+                "reference": "13777d24f23011828b0c23e97de0e6c0fa5cb3d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kilobyteno/laravel-plausible/zipball/ccb20a70b9fcd3a81340b4aca1009b78746bd276",
-                "reference": "ccb20a70b9fcd3a81340b4aca1009b78746bd276",
+                "url": "https://api.github.com/repos/kilobyteno/laravel-plausible/zipball/13777d24f23011828b0c23e97de0e6c0fa5cb3d8",
+                "reference": "13777d24f23011828b0c23e97de0e6c0fa5cb3d8",
                 "shasum": ""
             },
             "require": {
@@ -1676,15 +1670,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kilobyteno/laravel-plausible/issues",
-                "source": "https://github.com/kilobyteno/laravel-plausible/tree/0.0.2"
+                "source": "https://github.com/kilobyteno/laravel-plausible/tree/1.0.0"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/danielrtrd",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-04-28T19:43:49+00:00"
+            "time": "2023-07-19T18:16:29+00:00"
         },
         {
             "name": "laravel/forge-sdk",
@@ -5003,16 +4991,16 @@
         },
         {
             "name": "spatie/laravel-honeypot",
-            "version": "4.3.3",
+            "version": "4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-honeypot.git",
-                "reference": "fa303f537e0f2119861ab75efaa9b5ef792da12d"
+                "reference": "a888d2d7a7c841c4f0578b4f41c5d714e34c51fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-honeypot/zipball/fa303f537e0f2119861ab75efaa9b5ef792da12d",
-                "reference": "fa303f537e0f2119861ab75efaa9b5ef792da12d",
+                "url": "https://api.github.com/repos/spatie/laravel-honeypot/zipball/a888d2d7a7c841c4f0578b4f41c5d714e34c51fb",
+                "reference": "a888d2d7a7c841c4f0578b4f41c5d714e34c51fb",
                 "shasum": ""
             },
             "require": {
@@ -5067,7 +5055,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-honeypot/tree/4.3.3"
+                "source": "https://github.com/spatie/laravel-honeypot/tree/4.3.4"
             },
             "funding": [
                 {
@@ -5075,7 +5063,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-07-17T20:02:47+00:00"
+            "time": "2023-07-19T19:23:12+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
@@ -9373,16 +9361,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.3",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "b1be135c1ba7632f0248e07ee5e6e412576a309d"
+                "reference": "d1413755e26fe56a63455f7753221c86cbb88f66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/b1be135c1ba7632f0248e07ee5e6e412576a309d",
-                "reference": "b1be135c1ba7632f0248e07ee5e6e412576a309d",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/d1413755e26fe56a63455f7753221c86cbb88f66",
+                "reference": "d1413755e26fe56a63455f7753221c86cbb88f66",
                 "shasum": ""
             },
             "require": {
@@ -9396,16 +9384,17 @@
             "require-dev": {
                 "phpunit/phpunit": "^8.5 || ^9.3",
                 "psalm/plugin-phpunit": "^0.18.4",
+                "symplify/easy-coding-standard": "^11.5.0",
                 "vimeo/psalm": "^5.13.1"
             },
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/helpers.php",
-                    "src/Mockery.php"
+                    "library/helpers.php",
+                    "library/Mockery.php"
                 ],
                 "psr-4": {
-                    "Mockery\\": "src/Mockery"
+                    "Mockery\\": "library/Mockery"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9453,7 +9442,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2023-07-18T17:47:29+00:00"
+            "time": "2023-07-19T15:51:02+00:00"
         },
         {
             "name": "myclabs/deep-copy",
