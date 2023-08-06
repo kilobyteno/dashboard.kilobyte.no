@@ -1,13 +1,13 @@
 <x-dashboard-tile :position="$position">
     <div class="grid grid-rows-auto-1 gap-2 h-full">
-        <div class="text-xl leading-none mt-1 mb-2">
-            Plausible
+        <div class="text-xl leading-none mb-2">
+            Plausible Analytics
         </div>
         <div wire:poll.{{ $refreshIntervalInSeconds }}s class="grid auto-rows-auto grid-cols-3">
             @foreach($data as $key => $value)
                 <div>
-                    <div class="text-lg inline-block align-bottom">
-                        {{ \Illuminate\Support\Str::replace('_', '.', $key) }}
+                    <div class="inline-block align-bottom">
+                        <span class="text-lg">{{ \Illuminate\Support\Str::replace('_', '.', $key) }}</span>
                         @if(isset($value['realtime_visitors']))
                             <span class="block">
                                 <svg
@@ -18,7 +18,7 @@
                             </span>
                         @endif
                     </div>
-                    <div class="grid grid-rows-2 grid-cols-2 gap-4 text-lg leading-none">
+                    <div class="grid grid-rows-2 grid-cols-2 gap-4 leading-none">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
